@@ -5,8 +5,8 @@ import joblib
 import matplotlib.pyplot as plt
 
 # Load model and label encoder
-model = joblib.load("/Users/resafroshanpm/Library/CloudStorage/OneDrive-ChakrInnovations/misc_tasks/ecb_ml_model/gradient_boosting_smote_nocategorical_model.pkl")
-label_encoder = joblib.load("/Users/resafroshanpm/Library/CloudStorage/OneDrive-ChakrInnovations/misc_tasks/ecb_ml_model/label_encoder.pkl")
+model = joblib.load("gradient_boosting_smote_nocategorical_model.pkl")
+label_encoder = joblib.load("label_encoder.pkl")
 
 st.set_page_config(page_title="Emission Classification", layout="centered")
 st.title("Emission Category Predictor (Numerical Features Only)")
